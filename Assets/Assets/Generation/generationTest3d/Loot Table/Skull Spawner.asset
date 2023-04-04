@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d145a7c281439f40be56c3f07a272f1, type: 3}
+  m_Name: Skull Spawner
+  m_EditorClassIdentifier: 
+  ItemPrefab: {fileID: 1869262311381049343, guid: 9785c1ed6ea71914e9d4580eeb79b107,
+    type: 3}
+  MaximumCount: 1
+  SecondsBetweenSpawns: 5

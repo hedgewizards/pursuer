@@ -1,0 +1,49 @@
+{
+  "Name": "Double Barrel Shotgun",
+  "AmmoType": "ShotgunAmmo",
+  "ClipSize": "2",
+  "Reloader": {
+    "Type": "BasicReloader",
+    "SoundPath": "Sounds/doublebarrel-reload",
+    "Duration": "2.1",
+    "RefillDuration": "1.5"
+  },
+  "PrimaryFire": {
+    "Type": "BasicBulletAttack",
+    "SoundPath": "Sounds/doublebarrel-fire",
+    "TracerEffectName": "PistolTracer",
+    "MuzzleFlashEffectName": "PistolMuzzleFlash",
+    "NumberOfBullets": "12",
+    "RoundsPerMinute": "200",
+    "Damage": "8",
+    "AccuracySettings" : {
+      "BaseAccuracy" : "10",
+      "MovementPenaltyScale" : "0",
+      "JostlePenaltyScale" : "0",
+      "AttackPenaltyScale" : "1"
+    }
+  },
+  "AltFire": {
+    "Type": "BasicBulletAttack",
+    "AmmoPerShot": "2",
+    "SoundPath": "Sounds/doublebarrel-altfire",
+    "TracerEffectName": "PistolTracer",
+    "MuzzleFlashEffectName": "PistolMuzzleFlash",
+    "NumberOfBullets": "24",
+    "RoundsPerMinute": "100",
+    "Damage": "8",
+    "AccuracySettings" : {
+      "BaseAccuracy" : "10",
+      "MovementPenaltyScale" : "0",
+      "JostlePenaltyScale" : "0",
+      "AttackPenaltyScake" : "1"
+    }
+  },
+  "Modifiers": [
+    {
+      "Type": "SelfLaunchModifier",
+      "PrimaryFireKnockback": "5",
+      "AltFireKnockback": "6"
+    }
+  ]
+}

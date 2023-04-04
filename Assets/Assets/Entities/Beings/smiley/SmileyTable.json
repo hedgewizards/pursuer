@@ -1,0 +1,66 @@
+{
+  "Name": "Smiley",
+  "Stances": [
+    {
+      "Name": "Pursue",
+      "Type": "ChaseStance"
+    }
+  ],
+  "InitialStance": "Pursue",
+  "BaseSpeed": "3",
+  "BaseHealth": "5000",
+  "ThoughtSpeed": "0.5",
+  "InnateActions": [
+    {
+      "Name": "Cower",
+      "Type": "BasicStagger",
+      "Duration": "1.4",
+      "Trigger": {
+        "Type": "TriggerStagger",
+        "DamageThreshold": "80",
+        "RecoveryInterval": "3"
+      },
+      "StartDance": {
+        "AnimationName": "Cower",
+        "AnimationType": "Trigger",
+        "SoundPath": "Sounds/zombie-hurt"
+      }
+    },
+    {
+      "Name": "Attack",
+      "Type": "RadialMeleeAttack",
+      "Duration": "0.8",
+      "MidStepTime": "0.35",
+      "Damage": "40",
+      "Radius": "2.5",
+      "Afflictions": [
+        {
+          "Type": "KnockbackAffliction",
+          "DirectionalForceMagnitude": "4",
+          "UpwardForceMagnitude": "4",
+          "FlattenDirectionalForce": "True"
+        }
+      ],
+      "Trigger": {
+        "Type": "TriggerAcquireMeleeTarget",
+        "TestInterval": "0.2",
+        "Radius": "1.5"
+      },
+      "StartDance": {
+        "Name": "AttackStart",
+        "AnimationIsOverride": "True",
+        "AnimationName": "MeleeAttack",
+        "AnimationType": "Trigger",
+        "SoundPath": "Sounds/zombie-attack-low"
+      },
+      "AttackHitDance": {
+        "Name": "AttackHit",
+        "SoundPath": "Sounds/zombie-hit"
+      },
+      "AttackMissDance": {
+        "Name": "AttackMiss",
+        "SoundPath": "Sounds/zombie-woosh"
+      }
+    }
+  ]
+}

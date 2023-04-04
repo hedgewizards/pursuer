@@ -1,0 +1,23 @@
+{
+  "Name": "Compact Pistol",
+  "AmmoType": "PistolAmmo",
+  "ClipSize": "18",
+  "Reloader": {
+    "SoundPath": "Sounds/glock-reload",
+    "Type": "BasicReloader",
+    "Duration": "3.35",
+    "RefillDuration": "1.65"
+  },
+  "PrimaryFire ": {
+    "SoundPath": "Sounds/glock-fire",
+    "TracerEffectName": "PistolTracer",
+    "MuzzleFlashEffectName": "PistolMuzzleFlash",
+    "Type": "BasicBulletAttack",
+    "NumberOfBullets": "1",
+    "RoundsPerMinute": "300",
+    "Damage": "22",
+    "AccuracySettings": {
+      "BaseAccuracy" = "2",
+    }
+  }
+}

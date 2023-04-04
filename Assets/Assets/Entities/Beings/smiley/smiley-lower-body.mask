@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: smiley-lower-body
+  m_Mask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 1
+  - m_Path: Armature/base
+    m_Weight: 1
+  - m_Path: Armature/base/arm.control.l
+    m_Weight: 1
+  - m_Path: Armature/base/arm.control.l/arm.pole.l
+    m_Weight: 1
+  - m_Path: Armature/base/arm.control.l/arm.pole.l/arm.pole.l_end
+    m_Weight: 1
+  - m_Path: Armature/base/arm.control.r
+    m_Weight: 1
+  - m_Path: Armature/base/arm.control.r/arm.pole.r
+    m_Weight: 1
+  - m_Path: Armature/base/arm.control.r/arm.pole.r/arm.pole.r_end
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/Neck
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/Neck/Head
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/Neck/Head/Head_end
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l/hand.palm.l
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l/hand.palm.l/hand.control.upper.l
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l/hand.palm.l/hand.control.upper.l/hand.control.lower.l
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l/hand.palm.l/hand.control.upper.l/hand.control.lower.l/hand.control.lower.l_end
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l/hand.palm.l/hand.finger1.upper.l
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l/hand.palm.l/hand.finger1.upper.l/hand.finger1.lower.l
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l/hand.palm.l/hand.finger1.upper.l/hand.finger1.lower.l/hand.finger1.lower.l_end
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l/hand.palm.l/hand.finger2.upper.l
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l/hand.palm.l/hand.finger2.upper.l/hand.finger2.lower.l
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l/hand.palm.l/hand.finger2.upper.l/hand.finger2.lower.l/hand.finger2.lower.l_end
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l/hand.palm.l/hand.finger3.upper.l
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l/hand.palm.l/hand.finger3.upper.l/hand.finger3.lower.l
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.l/arm.upper.l/arm.lower.l/hand.palm.l/hand.finger3.upper.l/hand.finger3.lower.l/hand.finger3.lower.l_end
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r/hand.palm.r
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r/hand.palm.r/hand.control.upper.r
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r/hand.palm.r/hand.control.upper.r/hand.control.lower.r
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r/hand.palm.r/hand.control.upper.r/hand.control.lower.r/hand.control.lower.r_end
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r/hand.palm.r/hand.finger1.upper.r
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r/hand.palm.r/hand.finger1.upper.r/hand.finger1.lower.r
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r/hand.palm.r/hand.finger1.upper.r/hand.finger1.lower.r/hand.finger1.lower.r_end
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r/hand.palm.r/hand.finger2.upper.r
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r/hand.palm.r/hand.finger2.upper.r/hand.finger2.lower.r
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r/hand.palm.r/hand.finger2.upper.r/hand.finger2.lower.r/hand.finger2.lower.r_end
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r/hand.palm.r/hand.finger3.upper.r
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r/hand.palm.r/hand.finger3.upper.r/hand.finger3.lower.r
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/Gut/Chest/shoulder.r/arm.upper.r/arm.lower.r/hand.palm.r/hand.finger3.upper.r/hand.finger3.lower.r/hand.finger3.lower.r_end
+    m_Weight: 1
+  - m_Path: Armature/base/hips.control/pelvis/hip.l
+    m_Weight: 0
+  - m_Path: Armature/base/hips.control/pelvis/hip.l/leg.upper.l
+    m_Weight: 0
+  - m_Path: Armature/base/hips.control/pelvis/hip.l/leg.upper.l/leg.lower.l
+    m_Weight: 0
+  - m_Path: Armature/base/hips.control/pelvis/hip.l/leg.upper.l/leg.lower.l/foot.l
+    m_Weight: 0
+  - m_Path: Armature/base/hips.control/pelvis/hip.l/leg.upper.l/leg.lower.l/foot.l/foot.l_end
+    m_Weight: 0
+  - m_Path: Armature/base/hips.control/pelvis/hip.r
+    m_Weight: 0
+  - m_Path: Armature/base/hips.control/pelvis/hip.r/leg.upper.r
+    m_Weight: 0
+  - m_Path: Armature/base/hips.control/pelvis/hip.r/leg.upper.r/leg.lower.r
+    m_Weight: 0
+  - m_Path: Armature/base/hips.control/pelvis/hip.r/leg.upper.r/leg.lower.r/foot.r
+    m_Weight: 0
+  - m_Path: Armature/base/hips.control/pelvis/hip.r/leg.upper.r/leg.lower.r/foot.r/foot.r_end
+    m_Weight: 0
+  - m_Path: Armature/base/hips.control/pelvis/leg.pole.l
+    m_Weight: 0
+  - m_Path: Armature/base/hips.control/pelvis/leg.pole.l/leg.pole.l_end
+    m_Weight: 0
+  - m_Path: Armature/base/hips.control/pelvis/leg.pole.r
+    m_Weight: 0
+  - m_Path: Armature/base/hips.control/pelvis/leg.pole.r/leg.pole.r_end
+    m_Weight: 0
+  - m_Path: Armature/base/leg.control.l
+    m_Weight: 0
+  - m_Path: Armature/base/leg.control.l/leg.control.l_end
+    m_Weight: 0
+  - m_Path: Armature/base/leg.control.r
+    m_Weight: 0
+  - m_Path: Armature/base/leg.control.r/leg.control.r_end
+    m_Weight: 0
+  - m_Path: Plane
+    m_Weight: 0
+  - m_Path: smiley
+    m_Weight: 0

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4ec8c9ac4d827f46896a3adf5d5bdfa, type: 3}
+  m_Name: PistolTracer
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 2464547516406009572, guid: 208e50f804239a74796d8b22e0347ea9, type: 3}
+  RegisterEffect: 1
+  Lifetime: 0.15
+  MinSpeed: 100
+  TracerTailSize: 0.35

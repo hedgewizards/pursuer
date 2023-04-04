@@ -1,0 +1,1 @@
+right now: WeaponAttack.TracerTemplate is null D:
